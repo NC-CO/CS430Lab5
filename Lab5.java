@@ -2,10 +2,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import java.sql.*;
 import java.io.File;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -16,7 +14,6 @@ public class Lab5
     public static void main (String[] args)
     {
         Connection con = null;
-
         try {
             Statement stmt0;
             Statement stmt;
@@ -136,9 +133,5 @@ public class Lab5
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
-
-
-
     }
-
-} // end
+}
